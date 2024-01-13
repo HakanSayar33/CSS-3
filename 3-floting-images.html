@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        border: 2px solid red;
+        padding: 5px;
+      }
+      img {
+        width: 300px;
+        float: left;
+        margin-right: 10px;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum sapiente
+      neque corporis dignissimos, corrupti optio? Dicta magnam cum eligendi?
+      Dolores ea consectetur itaque iste at labore ipsa minima reiciendis
+      veniam!
+    </p>
+    <p class="clearfix">
+      <img src="tr-rows.jpg" alt="" />
+      <span>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+        dignissimos fuga sit quam maiores. Accusantium dolorum ab corrupti
+        consectetur earum laborum voluptatibus libero eaque totam est tempora,
+        nemo sit expedita.
+      </span>
+    </p>
+  </body>
+</html>
